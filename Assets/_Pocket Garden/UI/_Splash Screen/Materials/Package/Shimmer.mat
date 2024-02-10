@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 4
+  version: 7
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -23,13 +23,17 @@ Material:
   m_Name: Shimmer
   m_Shader: {fileID: -6465566751694194690, guid: 7ca24c0ae48f911439a20ba00c523a34,
     type: 3}
-  m_ShaderKeywords: 
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -77,7 +81,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: a078ff0f8047e4d57b8d2b1cf5219255, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_3533b5bfadc04a55b4692abe0275cd9f_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: a078ff0f8047e4d57b8d2b1cf5219255, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_72b509a9ced04e20bfd07941a3205952_Texture_1:
+        m_Texture: {fileID: 2800000, guid: aafd8738659dc4c248a4929865893e18, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_72b509a9ced04e20bfd07941a3205952_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: aafd8738659dc4c248a4929865893e18, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -85,11 +97,23 @@ Material:
         m_Texture: {fileID: 2800000, guid: ebc30419b124d4a25914e5b88035069c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7d616da1f2564dd5b357eee40ade53ae_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: ebc30419b124d4a25914e5b88035069c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_e6970c881ab84332bc4d3dda014b7678_Texture_1:
         m_Texture: {fileID: 2800000, guid: 67da467f951db4942b25ab09740b970a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_e6970c881ab84332bc4d3dda014b7678_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 67da467f951db4942b25ab09740b970a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_f610f292046d40d994045208d08d72c8_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 564f114af2761402fbb7a8f80ca0a862, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f610f292046d40d994045208d08d72c8_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 564f114af2761402fbb7a8f80ca0a862, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -109,6 +133,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Vector1_bafaa8850ee24e78ac7d3e278f9a93e6: 0
     - _AlphaClip: 0
